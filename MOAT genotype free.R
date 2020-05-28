@@ -18,7 +18,7 @@ Updated <- "28-05-2020"
 search <- "Test"
 
 #directory for run data
-wd <- ("c:/Users/Drew/Desktop/R_TEST/")
+wd <- ("c:/")
 setwd (wd)
 
 #MOATpanel used for filtering of SNPs in MOAT assay
