@@ -8,11 +8,11 @@ R Script for donor geneotype free analysis of donor fraction for SOT recipients
 
 1. Save Results_Test.csv and panel_template_MOAT.csv to a folder
 
-2. Save and open the genotypefree R script
+2. Open R studio and install the mixtools package
 
-3. Update the working directory to the folder with the Results_Test.csv and panel_template_MOAT.csv on line 21
+3. Save and open the genotypefree R script
 
-4. Install the mixtools package
+4. On line 21 of the script update the working directory to the folder where you saved the Results_Test.csv and panel_template_MOAT.csv 
 
 5. Run the script
 
