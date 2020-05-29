@@ -18,8 +18,11 @@ Updated <- "28-05-2020"
 search <- "Test"
 
 #directory for run data
-wd <- ("c:/")
-setwd(wd)
+scriptPath <- function() {
+  getSrcDirectory(scriptPath);
+}
+wd <- paste0(scriptPath(),"/")
+setwd (wd)
 
 #MOATpanel used for filtering of SNPs in MOAT assay
 MOATpanel <- read.csv(paste0(wd,"panel_template_MOAT.csv"))
